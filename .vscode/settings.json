@@ -1,0 +1,30 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+       // Formating edition
+   "editor.formatOnPaste": true,
+   "editor.formatOnSave": true,
+   "eslint.format.enable": true,
+   "eslint.lintTask.enable": true,
+   "eslint.validate": ["javascript", "typescript"],
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+   },
+   "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   // Azurite
+   "azurite.debug": true,
+   // Git
+   "git.autofetch": true
+}
